@@ -1,0 +1,17 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.3.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean id="audi" class="CW.lesson_1.imp.car.Audi"/>
+    <bean id="porshe" class="CW.lesson_1.imp.car.Porshe"/>
+
+        <bean id="g4fc" class="CW.lesson_1.imp.engine.G4fc"/>
+        <bean id="Tsi" class="CW.lesson_1.imp.engine.Tsi"/>
+
+    <bean id="goodyear" class="CW.lesson_1.imp.tires.Goodyear"/>
+
+
+
+
+</beans>
