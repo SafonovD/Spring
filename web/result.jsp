@@ -1,0 +1,27 @@
+
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<h2>Car</h2>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>${name}</td>
+    </tr>
+    <tr>
+        <td>Color</td>
+        <td>${color}</td>
+    </tr>
+    <tr>
+        <td>Engine</td>
+        <td>${engine}</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>${id}</td>
+    </tr>
+</table>
+</body>
+</html>
